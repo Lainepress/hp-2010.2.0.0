@@ -1,6 +1,8 @@
 mtl-1.1.0.2
 happy-1.18.5
 HUnit-1.2.2.1
+OpenGL-2.2.3.0
+GLUT-2.1.2.1
 alex-2.3.3
 deepseq-1.1.0.0
 haskell-src-1.0.1.3

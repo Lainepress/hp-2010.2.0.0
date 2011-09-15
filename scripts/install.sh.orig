@@ -33,7 +33,7 @@ install_pkg () {
     else
       GHC_PKG_DB="--global"
     fi
-    ${GHC_PKG} update "${PKG}.conf" \
+    ${GHC_PKG} update ${GHC_PKG_DB} "${PKG}.conf" \
       || die "Registering the package ${PKG} failed"
   fi
 
